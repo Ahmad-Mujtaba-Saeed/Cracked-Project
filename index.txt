@@ -1,0 +1,16 @@
+<?php
+session_start();
+?>
+<?php
+
+if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
+	// Automatically log the user in
+	$username = $_COOKIE['username'];
+	$pwd = $_COOKIE['password'];
+	// Authenticate the user with the provided credentials
+  }
+
+require_once 'includes/dbh.inc.php';
+?>
+
+  #f9c922
